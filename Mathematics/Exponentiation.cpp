@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+//Simple binary exponentiation trick and basic modular aithematic 
+//If power is even square the number ,elseif odd take one power out in the result and then square the number
 #define MOD  1000000007LL
 typedef long long ll;
 ll mod_exp(ll a,ll b ){
